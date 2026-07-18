@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CDC 2026 full-day workshop: Generative AI Meets Control and Optimization — Theory, Algorithms, and Systems.">
+  <meta name="theme-color" content="#10243f">
+  <title>Generative AI Meets Control and Optimization | CDC 2026 Workshop</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="site-name" href="#top" aria-label="Workshop home">
+        <span class="site-name-main">Generative AI × Control</span>
+        <span class="site-name-sub">CDC 2026 Workshop</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#abstract">Abstract</a>
+        <a href="#why">Why this workshop</a>
+        <a href="#organizers">Organizers</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="https://cdc2026.ieeecss.org/" target="_blank" rel="noopener">CDC 2026</a>
+        <a class="registration-link" href="https://cdc2026.ieeecss.org/registration" target="_blank" rel="noopener">Registration</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="workshop-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="overline">IEEE Conference on Decision and Control · Full-day workshop</p>
+          <h1 id="workshop-title">Generative AI Meets<br>Control and Optimization</h1>
+          <p class="subtitle">Theory, Algorithms, and Systems</p>
+          <div class="hero-rule" aria-hidden="true"></div>
+          <div class="event-line">
+            <span><strong>December 14, 2026</strong></span>
+            <span>Honolulu, Hawaiʻi</span>
+            <span>CDC 2026</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="https://cdc2026.ieeecss.org/registration" target="_blank" rel="noopener">Register for CDC 2026</a>
+            <a class="button secondary" href="workshop.ics" download>Add workshop to calendar</a>
+          </div>
+        </div>
+
+        <figure class="hero-figure" aria-labelledby="hero-figure-caption">
+          <svg viewBox="0 0 560 430" role="img" aria-label="Diagram connecting generative models with control, optimization, learning, and systems">
+            <defs>
+              <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+                <path d="M0,0 L8,4 L0,8 Z"></path>
+              </marker>
+            </defs>
+            <g class="figure-grid-lines">
+              <path d="M40 75H520M40 155H520M40 235H520M40 315H520"></path>
+              <path d="M110 40V390M210 40V390M310 40V390M410 40V390"></path>
+            </g>
+            <g class="figure-arrows">
+              <path d="M185 136C235 86 326 84 377 137" marker-end="url(#arrow)"></path>
+              <path d="M377 285C327 337 235 337 185 286" marker-end="url(#arrow)"></path>
+              <path d="M156 168C116 213 119 258 157 292" marker-end="url(#arrow)"></path>
+              <path d="M404 291C447 255 447 207 405 168" marker-end="url(#arrow)"></path>
+            </g>
+            <g class="figure-node central-node">
+              <circle cx="280" cy="214" r="78"></circle>
+              <text x="280" y="205" text-anchor="middle">Generative</text>
+              <text x="280" y="229" text-anchor="middle">models</text>
+            </g>
+            <g class="figure-node small-node"><circle cx="126" cy="112" r="58"></circle><text x="126" y="108" text-anchor="middle">Control</text><text x="126" y="128" text-anchor="middle">theory</text></g>
+            <g class="figure-node small-node"><circle cx="434" cy="112" r="58"></circle><text x="434" y="108" text-anchor="middle">Optimization</text><text x="434" y="128" text-anchor="middle">algorithms</text></g>
+            <g class="figure-node small-node"><circle cx="126" cy="318" r="58"></circle><text x="126" y="314" text-anchor="middle">Learning</text><text x="126" y="334" text-anchor="middle">dynamics</text></g>
+            <g class="figure-node small-node"><circle cx="434" cy="318" r="58"></circle><text x="434" y="314" text-anchor="middle">Decision &amp;</text><text x="434" y="334" text-anchor="middle">systems</text></g>
+          </svg>
+          <figcaption id="hero-figure-caption">A common language for analysis, algorithm design, and deployment.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section abstract-section" id="abstract" aria-labelledby="abstract-title">
+      <div class="shell text-layout">
+        <div class="section-label">
+          <p>Workshop abstract</p>
+          <h2 id="abstract-title">A principled view of generative systems</h2>
+        </div>
+        <div class="abstract-copy">
+          <p>Recent advances in generative AI have led to remarkable empirical success, but their theoretical understanding remains limited, particularly with respect to efficiency, reliability, and controllability. Addressing these challenges calls for principled frameworks that can provide guarantees and systematic design methodologies. Control theory and optimization offer a natural foundation in this regard, with tools to analyze dynamical behavior, enforce constraints, and design stable and efficient algorithms.</p>
+          <p>This workshop brings together researchers from control, optimization, and machine learning to explore how system-theoretic and optimization-based perspectives can advance the understanding and design of generative models, including diffusion models and large language models. We are particularly interested in approaches that enable efficient and reliable training and inference, as well as provide insights into stability and convergence properties of generative systems. We also welcome contributions that leverage generative models within control and optimization pipelines, highlighting the growing interplay between these fields.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why-section" id="why" aria-labelledby="why-title">
+      <div class="shell why-layout">
+        <div class="why-copy">
+          <p class="eyebrow">Why this workshop</p>
+          <h2 id="why-title">The empirical progress is clear. The systems questions are not.</h2>
+          <p>Diffusion models and large language models can be viewed as high-dimensional dynamical systems: denoising proceeds through an iterative stochastic process, autoregressive models generate through sequential state evolution, and training is governed by large-scale nonconvex optimization. This perspective brings familiar control questions—stability, robustness, feedback, constraints, and adaptation—directly into the study of generative AI.</p>
+          <p>The connection also runs in the other direction. Generative models are increasingly used for trajectory generation, planning, reinforcement learning, system identification, and data-driven control. These applications require more than expressive models; they require methods that behave predictably under uncertainty and respect the structure of the underlying system.</p>
+        </div>
+        <div class="questions" aria-label="Central workshop questions">
+          <article>
+            <span>01</span>
+            <h3>Dynamics</h3>
+            <p>How can stability and convergence be characterized for stochastic, high-dimensional training and inference processes?</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Reliability</h3>
+            <p>How can constraints, safety requirements, and robustness be incorporated into generation and decision-making?</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Algorithms</h3>
+            <p>Which ideas from control and optimization can make generative systems more efficient, interpretable, and deployable?</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section people-section organizers-section" id="organizers" aria-labelledby="organizers-title">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Organizing committee</p>
+          <h2 id="organizers-title">Organizers</h2>
+        </div>
+
+        <div class="organizer-list">
+          <article class="organizer-profile">
+            <a class="portrait portrait-large" href="https://dianyu420376.github.io/runyu-cathy-zhang.github.io/" target="_blank" rel="noopener" aria-label="Runyu Zhang academic webpage">
+              <img src="https://dianyu420376.github.io/runyu-cathy-zhang.github.io/images/cathy-profile.jpg" alt="Runyu (Cathy) Zhang" loading="lazy">
+              <span aria-hidden="true">RZ</span>
+            </a>
+            <div class="profile-copy">
+              <p class="role">Primary point of contact · MIT</p>
+              <h3><a href="https://dianyu420376.github.io/runyu-cathy-zhang.github.io/" target="_blank" rel="noopener">Runyu (Cathy) Zhang</a></h3>
+              <p>Runyu (Cathy) Zhang is a Postdoc Fellow for Engineering Excellence in the Laboratory for Information and Decision Systems and the Department of Civil and Environmental Engineering at MIT. She received her Ph.D. from Harvard University and her B.S. in mathematics from Peking University. Her research interests include reinforcement learning, control, game theory, and optimization, with a particular focus on multi-agent systems.</p>
+              <div class="profile-links"><a href="mailto:runyuzha@mit.edu">Email</a><a href="https://dianyu420376.github.io/runyu-cathy-zhang.github.io/" target="_blank" rel="noopener">Academic webpage ↗</a></div>
+            </div>
+          </article>
+
+          <article class="organizer-profile">
+            <a class="portrait portrait-large" href="https://jwzhang.netlify.app/" target="_blank" rel="noopener" aria-label="Jiawei Zhang academic webpage">
+              <img src="https://jwzhang.netlify.app/authors/admin/avatar_hu64686d06c570b31f953451e78efc9ead_46786_270x270_fill_q75_lanczos_center.jpeg" alt="Jiawei Zhang" loading="lazy">
+              <span aria-hidden="true">JZ</span>
+            </a>
+            <div class="profile-copy">
+              <p class="role">University of Wisconsin–Madison</p>
+              <h3><a href="https://jwzhang.netlify.app/" target="_blank" rel="noopener">Jiawei Zhang</a></h3>
+              <p>Jiawei Zhang is an Assistant Professor in the Department of Computer Sciences at the University of Wisconsin–Madison. His research focuses on efficient, scalable, generalizable, and robust optimization algorithms; the foundations and algorithms of large language models and diffusion models; and optimization for engineering applications.</p>
+              <div class="profile-links"><a href="mailto:jzhang2924@wisc.edu">Email</a><a href="https://jwzhang.netlify.app/" target="_blank" rel="noopener">Academic webpage ↗</a></div>
+            </div>
+          </article>
+
+          <article class="organizer-profile">
+            <a class="portrait portrait-large" href="https://asu.mit.edu/" target="_blank" rel="noopener" aria-label="Asuman Ozdaglar academic webpage">
+              <img src="https://ieeecss.org/sites/ieeecss/files/styles/cc_imgstyle_4_x_5/public/contacts/photo/Asu%20Ozdaglar.jpeg?h=a1958e5e&amp;itok=OOjLegLh" alt="Asuman Ozdaglar" loading="lazy">
+              <span aria-hidden="true">AO</span>
+            </a>
+            <div class="profile-copy">
+              <p class="role">Massachusetts Institute of Technology</p>
+              <h3><a href="https://asu.mit.edu/" target="_blank" rel="noopener">Asuman Ozdaglar</a></h3>
+              <p>Asuman Ozdaglar is the MathWorks Professor of Electrical Engineering and Computer Science, Head of MIT EECS, and Deputy Dean of Academics in the MIT Schwarzman College of Computing. Her research spans optimization, machine learning, economics, game theory, and networks, with applications to large-scale data-driven and multi-agent systems.</p>
+              <div class="profile-links"><a href="mailto:asuman@mit.edu">Email</a><a href="https://asu.mit.edu/" target="_blank" rel="noopener">Academic webpage ↗</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section people-section speakers-section" id="speakers" aria-labelledby="speakers-title">
+      <div class="shell">
+        <div class="section-heading heading-with-note">
+          <div>
+            <p class="eyebrow">Invited program</p>
+            <h2 id="speakers-title">Speakers</h2>
+          </div>
+          <p>Biographical information and affiliations were checked against the speakers’ academic or institutional webpages on July 18, 2026. Talk titles are reproduced from the submitted workshop proposal and remain subject to speaker confirmation.</p>
+        </div>
+
+        <div class="speaker-list">
+          <article class="speaker-profile">
+            <a class="portrait" href="https://yuejiechi.github.io/" target="_blank" rel="noopener" aria-label="Yuejie Chi academic webpage">
+              <img src="https://yuejiechi.github.io/ychi_homepage.jpg" alt="Yuejie Chi" loading="lazy"><span aria-hidden="true">YC</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">Yale University</p>
+              <h3><a href="https://yuejiechi.github.io/" target="_blank" rel="noopener">Yuejie Chi</a></h3>
+              <p>Charles C. and Dorothea S. Dilley Professor of Statistics and Data Science at Yale University, with a secondary appointment in Computer Science. Her research studies the theoretical and algorithmic foundations of data science, generative AI, reinforcement learning, and signal processing.</p>
+              <p class="talk"><span>Talk</span> On the Learning Dynamics of RLVR at the Edge of Competence</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://meisamr.github.io/" target="_blank" rel="noopener" aria-label="Meisam Razaviyayn academic webpage">
+              <img src="https://viterbi.usc.edu/directory/images/eeea76f8dd756ec21167af9ea1538e15.jpg" alt="Meisam Razaviyayn" loading="lazy"><span aria-hidden="true">MR</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">University of Southern California</p>
+              <h3><a href="https://meisamr.github.io/" target="_blank" rel="noopener">Meisam Razaviyayn</a></h3>
+              <p>Associate Professor and Andrew &amp; Erna Viterbi Early Career Chair at USC, with appointments in Industrial and Systems Engineering, Computer Science, Quantitative and Computational Biology, and Electrical and Computer Engineering. His research focuses on scalable and trustworthy optimization algorithms for modern machine learning and data science.</p>
+              <p class="talk"><span>Talk</span> From Theory to Throughput: Unifying Architectures and Scaling Deep Memory via Online Optimization</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://uuujf.github.io/" target="_blank" rel="noopener" aria-label="Jingfeng Wu academic webpage">
+              <img src="https://uuujf.github.io/images/jwu_medium.png" alt="Jingfeng Wu" loading="lazy"><span aria-hidden="true">JW</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">University of California, Berkeley</p>
+              <h3><a href="https://uuujf.github.io/" target="_blank" rel="noopener">Jingfeng Wu</a></h3>
+              <p>Assistant Professor of Statistics at UC Berkeley. His research focuses on the theory and algorithms of machine learning, particularly deep learning theory, optimization, and statistical learning.</p>
+              <p class="talk"><span>Talk</span> Towards a Less Conservative Theory of Machine Learning: Unstable Optimization and Implicit Regularization</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://camoalon.github.io/" target="_blank" rel="noopener" aria-label="Carmen Amo Alonso academic webpage">
+              <img src="https://camoalon.github.io/assets/imgs/me.jpg" alt="Carmen Amo Alonso" loading="lazy"><span aria-hidden="true">CA</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">Stanford University</p>
+              <h3><a href="https://camoalon.github.io/" target="_blank" rel="noopener">Carmen Amo Alonso</a></h3>
+              <p>Schmidt Science Fellow affiliated with Stanford’s Autonomous Systems Lab. Her research lies at the intersection of control theory, machine learning, and optimization, with a focus on generative AI and the design of safer, more controllable AI systems.</p>
+              <p class="talk"><span>Talk</span> Controllable AI: Artificial Intelligence Meets Control Theory</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://msimchowitz.github.io/" target="_blank" rel="noopener" aria-label="Max Simchowitz academic webpage">
+              <img src="https://msimchowitz.github.io/images/prof-new.png" alt="Max Simchowitz" loading="lazy"><span aria-hidden="true">MS</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">Carnegie Mellon University</p>
+              <h3><a href="https://msimchowitz.github.io/" target="_blank" rel="noopener">Max Simchowitz</a></h3>
+              <p>Assistant Professor in Carnegie Mellon’s Machine Learning Department and Robotics Institute. His work studies learning in sequential, interactive, and dynamical settings, including reinforcement learning, control, robot learning, and generative models.</p>
+              <p class="talk"><span>Talk</span> A Mathematical Basis for Moravec’s Paradox, and Some Open Problems</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://www.ehazan.com/" target="_blank" rel="noopener" aria-label="Elad Hazan academic webpage">
+              <img src="https://www.ehazan.com/elad.jpg" alt="Elad Hazan" loading="lazy"><span aria-hidden="true">EH</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">Princeton University</p>
+              <h3><a href="https://www.ehazan.com/" target="_blank" rel="noopener">Elad Hazan</a></h3>
+              <p>Professor of Computer Science at Princeton University. His research focuses on the design and analysis of algorithms for machine learning and optimization, including adaptive gradient methods, online learning, and online nonstochastic control.</p>
+              <p class="talk"><span>Talk</span> Provably Efficient Learning in Nonlinear Dynamical Systems via Spectral Transformers</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://jwzhang.netlify.app/" target="_blank" rel="noopener" aria-label="Jiawei Zhang academic webpage">
+              <img src="https://jwzhang.netlify.app/authors/admin/avatar_hu64686d06c570b31f953451e78efc9ead_46786_270x270_fill_q75_lanczos_center.jpeg" alt="Jiawei Zhang" loading="lazy"><span aria-hidden="true">JZ</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">University of Wisconsin–Madison</p>
+              <h3><a href="https://jwzhang.netlify.app/" target="_blank" rel="noopener">Jiawei Zhang</a></h3>
+              <p>Assistant Professor of Computer Sciences at UW–Madison. His work develops optimization theory and algorithms for large-scale learning, including efficient and reliable training and inference for large language models and diffusion models.</p>
+              <p class="talk"><span>Talk</span> Optimization for Efficient Training and Inference</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://kzhang66.github.io/" target="_blank" rel="noopener" aria-label="Kaiqing Zhang academic webpage">
+              <img src="https://kzhang66.github.io/photo_kaiqing.JPG" alt="Kaiqing Zhang" loading="lazy"><span aria-hidden="true">KZ</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">University of Maryland, College Park</p>
+              <h3><a href="https://kzhang66.github.io/" target="_blank" rel="noopener">Kaiqing Zhang</a></h3>
+              <p>Assistant Professor in Electrical and Computer Engineering and the Institute for Systems Research at the University of Maryland, with affiliations in Computer Science, UMIACS, and the Maryland Robotics Center. His research lies at the intersection of machine learning, reinforcement learning, game theory, and control, especially for multi-agent and safety-critical systems.</p>
+              <p class="talk"><span>Talk</span> Towards Understanding and Post-training LLMs as Decision-Making Agents: A Regret-based Approach</p>
+            </div>
+          </article>
+
+          <article class="speaker-profile">
+            <a class="portrait" href="https://nccr-automation.ch/about/people/andrey-kharitenko" target="_blank" rel="noopener" aria-label="Andrey Kharitenko academic profile">
+              <img src="https://nccr-automation.ch/sites/default/files/styles/profile_image_full/public/profil_images/Kharitenko%20%20Andrey%20.jpg?itok=2J5E_B7_" alt="Andrey Kharitenko" loading="lazy"><span aria-hidden="true">AK</span>
+            </a>
+            <div class="speaker-copy">
+              <p class="role">ETH Zürich</p>
+              <h3><a href="https://nccr-automation.ch/about/people/andrey-kharitenko" target="_blank" rel="noopener">Andrey Kharitenko</a></h3>
+              <p>Ph.D. student in the Optimization &amp; Decision Intelligence Group at ETH Zürich, advised by Niao He and Florian Dörfler. His interests include operator theory, optimization in probability spaces, distributionally robust control, and generative-model-based methods for optimization and data-driven control.</p>
+              <p class="talk"><span>Talk</span> Constrained Optimization through Denoising and Applications to Data-Driven Control</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section schedule-section" id="schedule" aria-labelledby="schedule-title">
+      <div class="shell">
+        <div class="section-heading heading-with-note schedule-heading">
+          <div>
+            <p class="eyebrow">Monday, December 14</p>
+            <h2 id="schedule-title">Schedule</h2>
+          </div>
+          <p>Provisional program. Talks are planned as 25-minute presentations followed by 5 minutes of discussion; times may be adjusted to match the final CDC workshop schedule.</p>
+        </div>
+
+        <div class="schedule-table" role="table" aria-label="Workshop schedule">
+          <div class="schedule-row schedule-opening" role="row">
+            <time role="cell">09:00–09:10</time>
+            <div role="cell"><p class="schedule-type">Opening</p><h3>Welcome and introduction</h3><p>Runyu Zhang, Jiawei Zhang, and Asuman Ozdaglar</p></div>
+          </div>
+
+          <div class="session-title" role="row"><span>Session I</span><strong>Learning Foundations</strong></div>
+          <div class="schedule-row" role="row"><time role="cell">09:10–09:40</time><div role="cell"><h3>On the Learning Dynamics of RLVR at the Edge of Competence</h3><p><a href="https://yuejiechi.github.io/" target="_blank" rel="noopener">Yuejie Chi</a> · Yale University</p></div></div>
+          <div class="schedule-row" role="row"><time role="cell">09:40–10:10</time><div role="cell"><h3>From Theory to Throughput: Unifying Architectures and Scaling Deep Memory via Online Optimization</h3><p><a href="https://meisamr.github.io/" target="_blank" rel="noopener">Meisam Razaviyayn</a> · University of Southern California</p></div></div>
+          <div class="schedule-row" role="row"><time role="cell">10:10–10:40</time><div role="cell"><h3>Towards a Less Conservative Theory of Machine Learning: Unstable Optimization and Implicit Regularization</h3><p><a href="https://uuujf.github.io/" target="_blank" rel="noopener">Jingfeng Wu</a> · University of California, Berkeley</p></div></div>
+          <div class="schedule-row break-row" role="row"><time role="cell">10:40–11:00</time><div role="cell"><h3>Coffee break</h3></div></div>
+
+          <div class="session-title" role="row"><span>Session II</span><strong>Generative AI with Control and Dynamical Systems</strong></div>
+          <div class="schedule-row" role="row"><time role="cell">11:00–11:30</time><div role="cell"><h3>Controllable AI: Artificial Intelligence Meets Control Theory</h3><p><a href="https://camoalon.github.io/" target="_blank" rel="noopener">Carmen Amo Alonso</a> · Stanford University</p></div></div>
+          <div class="schedule-row" role="row"><time role="cell">11:30–12:00</time><div role="cell"><h3>A Mathematical Basis for Moravec’s Paradox, and Some Open Problems</h3><p><a href="https://msimchowitz.github.io/" target="_blank" rel="noopener">Max Simchowitz</a> · Carnegie Mellon University</p></div></div>
+          <div class="schedule-row break-row" role="row"><time role="cell">12:00–14:00</time><div role="cell"><h3>Lunch break</h3></div></div>
+          <div class="schedule-row" role="row"><time role="cell">14:00–14:30</time><div role="cell"><h3>Provably Efficient Learning in Nonlinear Dynamical Systems via Spectral Transformers</h3><p><a href="https://www.ehazan.com/" target="_blank" rel="noopener">Elad Hazan</a> · Princeton University</p></div></div>
+
+          <div class="session-title" role="row"><span>Session III</span><strong>Generative AI with Optimization and Decision-Making</strong></div>
+          <div class="schedule-row" role="row"><time role="cell">14:30–15:00</time><div role="cell"><h3>Optimization for Efficient Training and Inference</h3><p><a href="https://jwzhang.netlify.app/" target="_blank" rel="noopener">Jiawei Zhang</a> · University of Wisconsin–Madison</p></div></div>
+          <div class="schedule-row break-row" role="row"><time role="cell">15:00–15:30</time><div role="cell"><h3>Coffee break</h3></div></div>
+          <div class="schedule-row" role="row"><time role="cell">15:30–16:00</time><div role="cell"><h3>Towards Understanding and Post-training LLMs as Decision-Making Agents: A Regret-based Approach</h3><p><a href="https://kzhang66.github.io/" target="_blank" rel="noopener">Kaiqing Zhang</a> · University of Maryland, College Park</p></div></div>
+          <div class="schedule-row" role="row"><time role="cell">16:00–16:30</time><div role="cell"><h3>Constrained Optimization through Denoising and Applications to Data-Driven Control</h3><p><a href="https://nccr-automation.ch/about/people/andrey-kharitenko" target="_blank" rel="noopener">Andrey Kharitenko</a> · ETH Zürich</p></div></div>
+          <div class="schedule-row schedule-closing" role="row"><time role="cell">16:30–17:00</time><div role="cell"><p class="schedule-type">Closing</p><h3>Concluding discussion and open problems</h3><p>Runyu Zhang, Jiawei Zhang, and Asuman Ozdaglar</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="conference-section" aria-labelledby="conference-title">
+      <div class="shell conference-inner">
+        <div>
+          <p class="eyebrow">Conference information</p>
+          <h2 id="conference-title">IEEE CDC 2026</h2>
+          <p>The 65th IEEE Conference on Decision and Control will be held in Honolulu, Hawaiʻi. Workshop participation is handled through the conference registration system.</p>
+        </div>
+        <div class="conference-actions">
+          <a class="button primary" href="https://cdc2026.ieeecss.org/" target="_blank" rel="noopener">Visit the CDC 2026 website</a>
+          <a class="button outline-light" href="https://cdc2026.ieeecss.org/registration" target="_blank" rel="noopener">Registration information</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p><strong>Generative AI Meets Control and Optimization</strong><br>CDC 2026 full-day workshop · December 14, 2026</p>
+      <div class="footer-links">
+        <a href="assets/workshop-proposal.pdf">Workshop proposal</a>
+        <a href="mailto:runyuzha@mit.edu">Contact</a>
+        <a href="https://cdc2026.ieeecss.org/registration" target="_blank" rel="noopener">Registration</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

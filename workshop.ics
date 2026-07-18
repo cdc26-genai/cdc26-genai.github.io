@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CDC 2026 Workshop//GenAI Meets Control and Optimization//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:cdc26-genai-control-workshop-20261214@example.org
+DTSTAMP:20260718T190000Z
+DTSTART:20261214T090000
+DTEND:20261214T170000
+SUMMARY:Generative AI Meets Control and Optimization: Theory, Algorithms, and Systems
+DESCRIPTION:Full-day workshop at IEEE CDC 2026. Program and venue details are subject to confirmation.
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR
